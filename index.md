@@ -1,6 +1,6 @@
 # Introduction to single-cell RNA-seq data analysis
 
-### 19, 26 Jan and 02 Feb || 09:30 - 17:30
+### 2nd, 6th, 9th December 2024 || 09:30 - 17:30
 #### Online via Zoom
 
 ![](UnivCambridge_ScRnaSeqIntro_Base/Images/uniOfCamCrukLogos.png)
@@ -9,11 +9,10 @@
 
 * Abigail Edwards - Bioinformatics Core, Cancer Research UK Cambridge Institute
 * Adam Reid - Bioinformatics Core, Gurdon Institute
-* Jiawei Wang - EBI
-* Jiayin Hong - Department of Biochemistry
-* Jon Price - Biochemistry Department, University of Cambridge
-* Katarzyna Kania - Genomics Core, Cancer Research UK Cambridge Institute
-
+* Betty Wang - Clinical Neurosciences, University of Cambridge
+* Chandra Chilamakuri - Bioinformatics Core, Cancer Research UK Cambridge Institute
+* Katarzyna Kania - Cosyne Therapeutics
+* Ramy Ragheb - Stem Cell Institute, Univeristy of Cambridge
 
 ## Outline
 
@@ -55,50 +54,47 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 ### Day 1
 
-Trainers: Abbi, Adam, Jiayin, Jon
 
-* 09:30 - 09:40 **Welcome** - Abbi
-* 09:40 - 10:25 **Introduction to Single Cell Technologies** - Katarzyna Kania
+* 09:30 - 09:45 **Welcome** - Bajuna
+* 09:45 - 10:30 **Introduction to Single Cell Technologies** - Katarzyna Kania
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/01_Introduction.pdf)
-* 10:25 - 10:30 - **Break**
-* 10:30 - 10:40 **Preamble**: data set and workflow - Jon
+* 10:30 - 10:44 **Preamble**: data set and workflow - Adam
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/02_PreambleSlides.html)
-* 10:40 - 12:30 Library structure, **cellranger** for alignment and cell calling - Jon
+* 10:45 - 11:00 - **Break**
+* 11:00 - 12:30 Library structure, **cellranger** for alignment and cell calling - Adam
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/03_CellRanger.html)
 * 12:30 - 13:30 **Lunch break**
-* 13:30 - 17:00 **QC and exploratory analysis** - Adam
+* 13:30 - 17:00 **QC and exploratory analysis** - Betty
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.html)
-        + [Demo live script](live_scripts/04_demonstration_live_script.R)
+        <!-- + [Demo live script](live_scripts/04_demonstration_live_script.R) -->
     + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)  
-        + [Exercise live script](live_scripts/04_exercise_live_script.R)
+       <!-- + [Exercise live script](live_scripts/04_exercise_live_script.R) -->
 
 ### Day 2
 
-Trainers: Adam, Jiawei, Jiayin, Jon
 
-* 09:30 - 09:40 **Recap** - Jon
+* 09:30 - 09:40 **Recap** - Chandra
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/00_Day1_Recap.html)
-* 09:40 - 12:30 **Normalisation** - Jon
+* 09:40 - 12:30 **Normalisation** - Chandra
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation.html)    
     + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation_exercises.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Jiayin / Hugo
+* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Abbi
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
-* 15:35 - 17:30 **Batch correction and data set integration** - Adam
+* 15:35 - 17:30 **Batch correction and data set integration** - Abbi
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/07_Dataset_Integration.html)
 
 ### Day 3
 
-Trainers: Abbi, Adam, Jiawei, Jiayin
 
-* 09:30 - 09:40 Recap - Adam
-* 09:40 - 11:05 **Clustering** - Adam
+* 09:30 - 09:40 Recap - Chandra
+* 09:40 - 11:05 **Clustering** - Chandra
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break**
@@ -106,7 +102,7 @@ Trainers: Abbi, Adam, Jiawei, Jiayin
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Abbi
+* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Adam
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/10_DifferentialExpressionAndAbundance.pdf) 
     + [Demonstration - Differential Expression](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/10_Differential_Expression.html)
     + [Demonstration - Differential Abundance](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/11_Differential_Abundance.html)
